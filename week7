@@ -1,0 +1,15 @@
+# Simple To-Do List Program
+# This program stores 3 tasks entered by user
+
+# Create empty list
+tasks = []
+
+# Loop to take 3 tasks
+for i in range(3):
+    task = input("Enter task: ")
+    tasks.append(task)   # Add task to list
+
+# Print all tasks
+print("\nYour Tasks:")
+for t in tasks:
+    print("-", t)
